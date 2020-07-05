@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}<img src="data:image/png;base64,{{picture}}">{% endblock %}
+{% block head %}
+<form method="POST">
+	Deathes<input type="checkbox" name="checkbox1" value="deathes">
+	Cases<input type="checkbox" name="checkbox1" value="cases">
+	<input type="submit">
+</form>
+{% endblock %}
